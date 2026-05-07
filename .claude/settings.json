@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python -c \"import ast; ast.parse\\(open\\('bot.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(.venv/bin/python bot.py)",
+      "Bash(.venv/bin/python -c \"from lunar import solar_to_lunar; print\\('OK'\\)\")",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(grep -v \"^$\")",
+      "Bash(.venv/bin/python -c \"import telegram; print\\(telegram.__version__\\)\")",
+      "Read(//Users/jiryanghome/Downloads/**)",
+      "Bash(.venv/bin/python -c \"import ast; ast.parse\\(open\\('/Users/jiryanghome/Downloads/tarot.py'\\).read\\(\\)\\); print\\('Downloads tarot.py 문법 OK'\\)\")",
+      "Bash(cp /Users/jiryanghome/Downloads/tarot.py /Users/jiryanghome/Tarot-bot/tarot.py)",
+      "Bash(.venv/bin/python -c \"import ast; ast.parse\\(open\\('sheets.py'\\).read\\(\\)\\); print\\('OK'\\)\")"
+    ],
+    "additionalDirectories": [
+      "/Users/jiryanghome/Downloads"
+    ]
+  }
+}
